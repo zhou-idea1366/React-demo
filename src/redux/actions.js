@@ -26,8 +26,8 @@ export const resetUser = msg => ({type: RESET_USER, data: msg});
      return errMsg({username, password, msg:'请输入用户名'});
    } else if (!password) {
      return errMsg({username, password, msg:'请输入密码'});
-   } else if (!password !== rePassword) {
-     return errMsg({username, password,msg:'两次输入密码不相同'});
+   } else if (password !== rePassword) {
+     return errMsg({username, password, msg:'两次输入密码不相同'});
    } else if (!type) {
      return errMsg({username, password, msg:'请选择账号类型'});
 
