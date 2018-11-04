@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom';
 import {HashRouter,Switch,Route} from 'react-router-dom';
 import {Provider} from 'react-redux';
 
-import Login from './components/login';
+import Login from './containers/login';
 import Register from './containers/register';
-import Main from './components/main';
+import Main from './containers/main';
 import store from './redux/store';
 
 //引入公共样式

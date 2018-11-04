@@ -8,3 +8,7 @@
  export const UPDATE_USER = 'UPDATE_USER';
 
  export const RESET_USER = 'RESET_USER';
+
+ export const UPDATE_USER_LIST = 'UPDATE_USER_LIST';
+
+ export const RESET_USER_LIST = 'RESET_USER_LIST';

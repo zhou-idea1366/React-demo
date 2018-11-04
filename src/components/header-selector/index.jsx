@@ -23,11 +23,11 @@ class HeaderSelector extends Component {
   render () {
     const {icon} = this.state;
 
-    const headerUI = icon ? <div>新头像<img src={icon}/></div> : '请选择头像';
+    const headerUI = icon ? <div>请选择头像<img src={icon}/></div> : '请选择头像';
 
     const data = Array.from(new Array(20)).map((item,index) => ({
       //通过require 将图片资源动态加载进来
-      icon:require(`./avatars/头像${index + 1}.png`),
+      icon:require(`../../assets/images/头像${index + 1}.png`),
       text:`头像${index + 1}`
     }));
 
