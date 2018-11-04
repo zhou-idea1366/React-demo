@@ -33,7 +33,7 @@ export default class Personal extends React.Component {
     return (
         <div>
           <Result
-              img={<img src={require(`../../assets/images/${user.header}.png`)} style={{width: 50}} alt="header"/>}
+              img={<img src={require(`../../assets/images/头像1.png`)} style={{width: 50}} alt="header"/>}
               title={user.username}
               message={user.company}
           />
